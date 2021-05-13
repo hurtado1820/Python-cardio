@@ -33,11 +33,11 @@ def run():
         if ganados_maquina != ganados_jugador:     
             contador += 1    
     if puntos_jugador == 2:
-        print("\n----Gana el jugador----")
+        print("\n----Gana el jugador 🥳----")
     elif puntos_maquina == 2:  
-        print("\n----Gana el computador----")
+        print("\n----Gana el computador 🥳----")
     else:
-        print("\n----Es un empate----")      
+        print("\n----Es un empate 😱----")      
 
 
 if __name__ == '__main__':

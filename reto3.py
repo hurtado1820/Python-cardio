@@ -1,10 +1,9 @@
 def conversor(num):
+    val_ingresado = float(input("Ingrese el valor: "))
     if num == 1:
-        val_ingresado = float(input("Ingrese el valor en millas: "))
         kilometros = val_ingresado * 1.609344
         print(val_ingresado," millas equivalen a ",kilometros," kilometros")
     if num == 2:
-        val_ingresado = float(input("Ingrese el valor en kilometros: "))
         millas = val_ingresado / 1.609344
         print(val_ingresado," kilometros equivalen a ",millas," millas")
 

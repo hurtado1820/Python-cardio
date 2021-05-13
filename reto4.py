@@ -4,7 +4,7 @@ def cilindro():
     radio = float(input('\nIngrese el valor del radio: '))
     altura = float(input('Ingrese el valor de la altura: '))
     vol_cilindro = math.pi * (radio**2) * altura
-    print('El volumen del cilindro es: ',vol_cilindro,'unidades cubicas')
+    print('El volumen del cilindro es: ',round(vol_cilindro,2),'unidades cubicas')
 
 def cubo():
     lado = float(input('\nIngresa el valor del lado del cubo: '))
